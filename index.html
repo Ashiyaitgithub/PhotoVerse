@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoVerse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PhotoVerse</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section home">
+            <div class="welcome">
+                <h1 class="main-heading">Welcome to PhotoShop</h1>
+                <p>Your one-stop destination for beautiful and high-quality photos. Explore our gallery and discover stunning images for your needs.</p>
+                <button class="explore-btn" onclick="scrollToSection('gallery')">Explore Gallery</button>
+            </div>
+            <div class="features">
+                <div class="feature-box">
+                    <div class="feature-item">
+                        <h2>High Quality</h2>
+                        <p>All our photos are captured and edited by professional photographers to ensure the highest quality.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-item">
+                        <h2>Affordable Prices</h2>
+                        <p>Get the best value for your money with our competitively priced photo collection.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-item">
+                        <h2>Variety of Themes</h2>
+                        <p>We offer a wide range of themes and styles to suit all your personal and professional needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <h1>Gallery</h1>
+            <div class="gallery">
+                <!-- Displaying 4 photos per row initially -->
+                <div class="gallery-item">
+                    <img src="/Photos/1.jpg" alt="Photo 1">
+                    <div class="photo-actions">
+                        <a href="/Photos/1.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/2.jpg" alt="Photo 2">
+                    <div class="photo-actions">
+                        <a href="/Photos/2.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/3.jpg" alt="Photo 3">
+                    <div class="photo-actions">
+                        <a href="/Photos/3.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/4.jpg" alt="Photo 4">
+                    <div class="photo-actions">
+                        <a href="/Photos/4.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/5.jpg" alt="Photo 5">
+                    <div class="photo-actions">
+                        <a href="/Photos/5.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/6.jpg" alt="Photo 6">
+                    <div class="photo-actions">
+                        <a href="/Photos/6.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/7.jpg" alt="Photo 7">
+                    <div class="photo-actions">
+                        <a href="/Photos/7.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Photos/8.jpg" alt="Photo 8">
+                    <div class="photo-actions">
+                        <a href="/Photos/8.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Hidden items -->
+                
+                <div class="gallery-item hidden">
+                    <img src="/Photos/9.jpg" alt="Photo 9">
+                    <div class="photo-actions">
+                        <a href="/Photos/9.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item hidden">
+                    <img src="/Photos/10.jpg" alt="Photo 10">
+                    <div class="photo-actions">
+                        <a href="/Photos/10.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item hidden">
+                    <img src="/Photos/9.jpg" alt="Photo 11">
+                    <div class="photo-actions">
+                        <a href="/Photos/9.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="gallery-item hidden">
+                    <img src="/Photos/3.jpg" alt="Photo 12">
+                    <div class="photo-actions">
+                        <a href="/Photos/3.jpg" download class="download-btn"><img src="/Photos/D1.png" style="height: 24px;", width="24px"></a>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="see-more-btn" onclick="toggleGallery()">See More</button>
+        </section>
+
+        <section id="about" class="section about">
+            <h1 class="section-heading">About Us</h1>
+            <div class="about-content">
+                <div class="about-item">
+                    <h2>Our Mission</h2>
+                    <p>PhotoShop is a premier platform for purchasing high-quality and beautiful photos. We offer a wide range of images that cater to various needs and preferences. Our mission is to provide you with the best visual content to suit your personal or professional projects.</p>
+                </div>
+                <div class="about-item">
+                    <h2>Our Team</h2>
+                    <p>Our team consists of professional photographers, designers, and customer service experts who are dedicated to providing you with the best experience. Each member brings a unique skill set to ensure the highest quality in every aspect of our service.</p>
+                </div>
+                <div class="about-item">
+                    <h2>Our Story</h2>
+                    <p>PhotoShop started as a small project with a passion for photography and design. Over time, we have grown into a leading provider of premium photos, thanks to our commitment to quality and customer satisfaction.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h1 class="section-heading">Contact Us</h1>
+            <div class="contact-content">
+                <p>If you have any questions or need assistance, feel free to reach out to us. We are here to help you with your photo needs.</p>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+                <div class="social-media">
+                    <a href="https://instagram.com" target="_blank" class="social-icon"><img src="/Photos/insta.png" alt="Instagram"></a>
+                    <a href="https://telegram.org" target="_blank" class="social-icon"><img src="/Photos/teli.png" alt="Telegram"></a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon"><img src="/Photos/twi.png" alt="Twitter"></a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon"><img src="/Photos/face.png" alt="Facebook"></a>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 PhotoShop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function toggleGallery() {
+            const hiddenItems = document.querySelectorAll('.gallery-item.hidden');
+            const seeMoreBtn = document.querySelector('.see-more-btn');
+
+            if (seeMoreBtn.textContent === 'See Less') {
+                hiddenItems.forEach(item => item.classList.add('hidden'));
+                seeMoreBtn.textContent = 'See More';
+            } else {
+                hiddenItems.forEach(item => item.classList.remove('hidden'));
+                seeMoreBtn.textContent = 'See Less';
+            }
+        }
+    </script>
+</body>
+</html>
